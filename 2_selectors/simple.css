@@ -1,0 +1,42 @@
+
+
+/* ! 1. tagname selector */
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+
+
+/* ! 2. id selector */
+
+#heading2{
+    color:red;
+}
+
+
+
+
+/* ! 3. class Selector */
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+/* ! 4. universal selector */
+
+
+*{
+    font-style: italic;
+}
+
+
+/* ! 5. group selector */
+
+h3 , h4{
+    color:blue
+}

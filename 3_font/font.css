@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap');
+
+
+*{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Playwrite MX Guides", serif;
+}
+
+.header > p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.section >p{
+
+    font-style: italic;  
+}
+
+
+.article > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

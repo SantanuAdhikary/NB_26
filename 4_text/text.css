@@ -1,0 +1,42 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header > h1{
+    text-transform: capitalize;
+
+    text-align: center;
+}
+
+
+.header > p{
+    text-align: justify;
+}
+
+
+.section > p{
+    text-indent: 30px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 25px;
+}
+
+
+.section > h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    text-shadow: 2px 5px 3px red;
+
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+}
+
+
+.article > ol > li{
+    font-size: 20px;
+    font-weight: bold;
+}

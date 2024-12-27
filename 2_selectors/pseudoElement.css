@@ -1,0 +1,61 @@
+
+
+/* ! 1. first-letter */
+
+.con1 > #p1::first-letter{
+    color:red;
+}
+
+
+/* ! 2. first-line */
+
+
+.con1 > #p1::first-line{
+    background-color: green;
+}
+
+/* ! 3. selection */
+
+.con2 > p::selection{
+    background-color: black;
+    color:white;
+}
+
+/* ! 4. marker */
+
+.con2 > ul > li::marker{
+    color:red
+}
+
+
+.con2 > ul > li:nth-child(2n)::marker{
+    color:green;
+}
+
+
+
+/* ! 5. before */
+
+
+.con2 > h2::before{
+    content: "*";   
+    color:red; 
+}
+
+
+/* ! 6. after */
+
+
+.con2 > h2::after{
+    content: "!!!!!";
+    color:green;
+}
+
+
+
+/* !   Attribute Selector */
+
+
+input[type="text"]{
+    background-color: green;
+}

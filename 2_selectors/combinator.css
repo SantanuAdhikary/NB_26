@@ -1,0 +1,25 @@
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+
+
+/* !  Descendant Selector */
+
+.box1 h1{
+    color: red;
+}
+
+/* !  Direct Child Selector */
+
+.box2 > h1{
+    color:green
+}
