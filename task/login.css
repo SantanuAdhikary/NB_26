@@ -1,0 +1,83 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer >.login{
+    /* border: 2px solid red; */
+    width: 400px;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+   
+}
+
+
+.login > form > label{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login > form > input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 6px;
+}
+
+.login > h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.login > #p1{
+    font-style: italic;
+    color:#666;
+    margin-bottom: 10px;
+}
+
+.login > form > button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #0866ff;
+    border-radius: 20px;
+    color:white;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.login > form > button:hover{
+    background-color:  #0b48ab;;
+}
+
+.login > #p2{
+    display: inline;
+    margin-right: 10px;
+    font-size: 18px;
+    color:#666;
+}
+.login > #p3{
+    display: inline;
+    font-size: 14px;
+    color: #0866ff;
+    cursor: pointer;
+}
