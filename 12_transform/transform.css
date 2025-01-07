@@ -1,0 +1,53 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+
+    background: linear-gradient(to right, red ,yellow,black);
+}
+
+.outer > .inner{
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+    cursor: pointer;
+
+    transition: all 2s ease-in;
+
+}
+
+.outer > .inner:hover{
+
+    background-color: blue;
+    border-radius: 50%;
+  
+    /* transform: translateX(-200px); */
+    /* transform: translateY(200px) ; */
+
+    /* transform: translate(200px,200px); */
+
+
+    /* transform: scale(1.5); */
+
+
+    /* transform: rotate(360deg); */
+
+    /* transform: skew(180deg); */
+
+
+    transform: translateX(200px) scale(1.5) rotate(360deg) skew(45deg);
+
+
+}
