@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: antiquewhite;
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.main{
+    height: 85vh;
+    background-image: url("https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+}
+
+.box{
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+
+    background-color: antiquewhite;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1EdaVAtRcpMSIvrK2qmO_9xaS4Ex5t7xuKA&s");
+
+    background-repeat: no-repeat;
+    /* background-position: bottom left; */
+    background-size: contain;
+}

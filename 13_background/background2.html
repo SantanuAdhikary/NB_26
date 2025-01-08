@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background2</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .section{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+            background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+            background-attachment: fixed;
+        }
+
+        .section > h1{
+            color:white;
+            text-transform: uppercase;
+            font-size: 45px;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 2px rgba(0,0,0,0.8); 
+        }
+
+        .section > p{
+            color:white;
+            text-transform: uppercase;
+            font-size: 20px;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 2px rgba(0,0,0,0.8); 
+        }
+
+        #section2{
+            background-image: url("https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        }
+        #section3{
+            background-image: url("https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        }
+        #section4{
+            background-image: url("https://images.pexels.com/photos/235990/pexels-photo-235990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="section" id="section1">
+         <h1> this is section1</h1>
+         <p> this is paragraph1</p>
+    </div>
+    <div class="section" id="section2">
+        <h1> this is section2</h1>
+         <p> this is paragraph2</p>
+    </div>
+    <div class="section" id="section3">
+        <h1> this is section 3</h1>
+         <p> this is paragraph 3</p>
+    </div>
+    <div class="section" id="section4">
+        <h1> this is section4</h1>
+         <p> this is paragraph4</p>
+    </div>
+</body>
+</html>
