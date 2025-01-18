@@ -163,17 +163,31 @@
     width: 30px;
     background-color: white;
     border-radius: 50%;
+    animation: up_down 2s ease-in infinite alternate;
 }
 
 #dot1{
     background-color: green;
+    
 }
 #dot2{
     background-color: red;
+    animation-delay: 0.1s;
 }
 #dot3{
     background-color: blue;
+    animation-delay: 0.2s;
 }
 #dot4{
     background-color: black;
+    animation-delay: 0.3s;
+}
+
+@keyframes up_down {
+    from{
+        transform: translateY(-60px);
+    }
+    to{
+        transform: translateY(60px);
+    }
 }
